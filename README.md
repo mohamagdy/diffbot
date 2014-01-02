@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```rb
+	article = Diffbot::Article.fetch({ url: "http://en.wikipedia.org/wiki/Egypt", token: "abc" }
+	article.icon # => "http://bits.wikimedia.org/apple-touch/wikipedia.png"
+	article.title # => "Egypt"
+	article.type # => "article"
+```
 
 ## Contributing
 
