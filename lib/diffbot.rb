@@ -1,5 +1,9 @@
 require "diffbot/version"
+require "diffbot/connection"
 
-module Diffbot
-  # Your code goes here...
-end
+# Libs
+require "httparty"
+require "ostruct"
+
+# API
+require "diffbot/api/article"
